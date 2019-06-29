@@ -1,0 +1,105 @@
+{UTF-8}
+"Annual Return Rate (%/yr)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Anxiety Level (1-10)"  = A FUNCTION OF( "Expenses ($)","Monthly Pay ($)","Savings ($)"\
+		)
+	~	
+	~		|
+
+"Company Financial Health (Company Revenue)"  = A FUNCTION OF( "GNP (Growth Rate)")
+	~	
+	~		|
+
+"Expenses ($)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"GNP (Growth Rate)"  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Hourly Pay Rate ($)"  = A FUNCTION OF( "Company Financial Health (Company Revenue)")
+	~	
+	~		|
+
+"Monthly Pay ($)"  = A FUNCTION OF( "Hourly Pay Rate ($)","Weekly Hours Worked (Hrs)"\
+		)
+	~	
+	~		|
+
+"Savings ($)"  = A FUNCTION OF( "Annual Return Rate (%/yr)","Expenses ($)","GNP (Growth Rate)"\
+		,"Monthly Pay ($)")
+	~	
+	~		|
+
+"Weekly Hours Worked (Hrs)"  = A FUNCTION OF( "Company Financial Health (Company Revenue)"\
+		)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,"Hourly Pay Rate ($)",375,210,53,19,8,3,0,0,0,0,0,0
+10,2,"Monthly Pay ($)",490,337,52,11,8,3,0,0,0,0,0,0
+10,3,"Savings ($)",724,446,36,11,8,3,0,0,0,0,0,0
+10,4,"Anxiety Level (1-10)",1043,457,44,19,8,3,0,0,0,0,0,0
+10,5,"Company Financial Health (Company Revenue)",492,76,61,28,8,3,0,0,0,0,0,0
+10,6,"Weekly Hours Worked (Hrs)",610,210,47,19,8,3,0,0,0,0,0,0
+10,7,"Annual Return Rate (%/yr)",536,567,46,19,8,3,0,0,0,0,0,0
+10,8,"Expenses ($)",888,634,42,11,8,3,0,0,0,0,0,0
+10,9,"GNP (Growth Rate)",954,96,46,19,8,3,0,0,0,0,0,0
+1,10,5,6,1,0,43,0,2,65,0,-1--1--1,|0||-1--1--1,1|(593,126)|
+1,11,5,1,1,0,43,0,2,65,0,-1--1--1,|0||-1--1--1,1|(388,133)|
+1,12,1,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(380,277)|
+1,13,6,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(589,298)|
+1,14,2,3,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(565,408)|
+1,15,7,3,1,0,43,0,2,65,0,-1--1--1,|0||-1--1--1,1|(602,500)|
+1,16,3,4,0,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(872,450)|
+1,17,9,5,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(725,30)|
+1,18,9,3,1,0,43,0,2,65,0,-1--1--1,|0||-1--1--1,1|(927,302)|
+1,19,8,3,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(764,553)|
+1,20,8,4,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(1015,555)|
+1,21,2,4,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(732,364)|
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:0,
+34:0,
+5:"Weekly Hours Worked (Hrs)"
+24:0
+25:0
+26:0

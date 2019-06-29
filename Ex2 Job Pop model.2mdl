@@ -1,0 +1,161 @@
+{UTF-8}
+Multiplier  = A FUNCTION OF( )
+	~	
+	~		|
+
+Annual Job Growth  = A FUNCTION OF( )
+	~	
+	~		|
+
+Wage incentive pakg  = A FUNCTION OF( Ideal pop job minus actual,Multiplier)
+	~	
+	~		|
+
+Jobs added yearly  = A FUNCTION OF( Annual Job Growth,Jobs)
+	~	
+	~		|
+
+actual job pop ratio  = A FUNCTION OF( Jobs,Population)
+	~	
+	~		|
+
+Added Jobs  = A FUNCTION OF( Jobs added yearly)
+	~	
+	~		|
+
+Additional people  = A FUNCTION OF( delay from incentivised pop increase,Difference between ideal and actual\
+		)
+	~	
+	~		|
+
+delay from incentivised pop increase  = A FUNCTION OF( Time constant,Wage incentive pakg\
+		)
+	~	
+	~		|
+
+Difference between ideal and actual  = A FUNCTION OF( Ideal pop)
+	~	
+	~		|
+
+Ideal job pop ratio  = A FUNCTION OF( )
+	~	
+	~		|
+
+Ideal pop  = A FUNCTION OF( Ideal job pop ratio,Jobs)
+	~	
+	~		|
+
+Ideal pop job minus actual  = A FUNCTION OF( actual job pop ratio,Ideal job pop ratio\
+		)
+	~	
+	~		|
+
+Influx Migration  = A FUNCTION OF( Additional people) ~~|
+Influx Migration=
+	~	
+	~		|
+
+Jobs  = A FUNCTION OF( Added Jobs)
+	~	
+	~		|
+
+Population  = A FUNCTION OF( Influx Migration)
+	~	
+	~		|
+
+Time constant  = A FUNCTION OF( )
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,Jobs,533,144,40,20,3,3,0,0,0,0,0,0
+10,2,Population,580,306,40,20,3,3,0,0,0,0,0,0
+12,3,48,271,309,10,8,0,3,0,0,-1,0,0,0
+1,4,6,2,4,0,0,22,0,0,0,-1--1--1,,1|(478,309)|
+1,5,6,3,100,0,0,22,0,0,0,-1--1--1,,1|(342,309)|
+11,6,48,410,309,6,8,34,3,0,0,1,0,0,0
+10,7,Influx Migration,410,328,50,11,40,3,0,0,-1,0,0,0
+12,8,48,298,148,10,8,0,3,0,0,-1,0,0,0
+1,9,11,1,4,0,0,22,0,0,0,-1--1--1,,1|(449,148)|
+1,10,11,8,100,0,0,22,0,0,0,-1--1--1,,1|(351,148)|
+11,11,48,400,148,6,8,34,3,0,0,1,0,0,0
+10,12,Added Jobs,400,167,39,11,40,3,0,0,-1,0,0,0
+10,13,Jobs added yearly,391,40,57,11,8,3,0,0,0,0,0,0
+1,14,13,12,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(338,101)|
+1,15,1,13,1,0,0,0,0,64,0,-1--1--1,,1|(521,111)|
+10,16,Ideal pop,254,215,31,11,8,3,0,0,0,0,0,0
+10,17,actual job pop ratio,615,205,46,19,8,3,0,0,0,0,0,0
+10,18,Ideal job pop ratio,411,227,59,11,8,3,0,0,0,0,0,0
+10,19,Difference between ideal and actual,81,315,62,19,8,3,0,0,0,0,0,0
+10,20,Additional people,369,474,56,11,8,3,0,0,0,0,0,0
+10,21,delay from incentivised pop increase,611,438,72,19,8,3,0,0,0,0,0,0
+10,22,Wage incentive pakg,799,360,49,19,8,3,0,0,0,0,0,0
+10,23,Ideal pop job minus actual,795,199,44,19,8,3,0,0,0,0,0,0
+1,24,1,16,0,0,0,0,0,64,0,-1--1--1,,1|(395,178)|
+1,25,16,19,0,0,0,0,0,64,0,-1--1--1,,1|(180,257)|
+1,26,19,20,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(187,437)|
+1,27,20,7,0,0,0,0,0,64,0,-1--1--1,,1|(387,407)|
+1,28,21,20,0,0,0,0,0,64,0,-1--1--1,,1|(488,455)|
+1,29,22,21,0,0,0,0,0,64,0,-1--1--1,,1|(711,396)|
+10,30,Time constant,769,488,44,11,8,3,0,0,0,0,0,0
+1,31,30,21,0,0,0,0,0,64,0,-1--1--1,,1|(709,469)|
+1,32,23,22,0,0,0,0,0,64,0,-1--1--1,,1|(796,272)|
+1,33,18,23,1,0,0,0,0,64,0,-1--1--1,,1|(609,268)|
+1,34,18,16,0,0,0,0,0,64,0,-1--1--1,,1|(325,220)|
+1,35,1,17,0,0,0,0,0,64,0,-1--1--1,,1|(568,170)|
+1,36,17,23,0,0,0,0,0,64,0,-1--1--1,,1|(699,202)|
+1,37,2,17,0,0,0,0,0,64,0,-1--1--1,,1|(594,261)|
+10,38,Annual Job Growth,620,39,36,19,8,3,0,0,0,0,0,0
+1,39,38,13,1,0,0,0,0,64,0,-1--1--1,,1|(515,36)|
+10,40,Multiplier,703,292,31,11,8,3,0,0,0,0,0,0
+1,41,40,22,1,0,0,0,0,64,0,-1--1--1,,1|(732,322)|
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:0,
+34:0,
+5:Difference between ideal and actual
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+24:0
+25:0
+26:0

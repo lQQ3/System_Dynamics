@@ -1,0 +1,35 @@
+Loop Number 1 of length 1
+  Juvenile Fish
+       Maturing
+Loop Number 2 of length 3
+  Juvenile Fish
+       Fish Population Density
+       Current Birth Fraction
+       Birthing
+Loop Number 3 of length 3
+  Juvenile Fish
+       Maturing
+       Adult Fish
+       Birthing
+Loop Number 4 of length 5
+  Juvenile Fish
+       Fish Population Density
+       Current Death Fraction
+       Dying
+       Adult Fish
+       Birthing
+Loop Number 5 of length 5
+  Juvenile Fish
+       Maturing
+       Adult Fish
+       Fish Population Density
+       Current Birth Fraction
+       Birthing
+Loop Number 6 of length 6
+  Juvenile Fish
+       Fish Population Density
+       Catch Multiplier
+       Catch
+       Catching Fish
+       Adult Fish
+       Birthing

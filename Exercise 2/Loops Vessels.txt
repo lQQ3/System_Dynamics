@@ -1,0 +1,16 @@
+Loop Number 1 of length 1
+  Fishing Vessels
+       Retiring Vessels
+Loop Number 2 of length 4
+  Fishing Vessels
+       Catch per Vessel
+       Revenue per Vessel
+       Payback Period
+       Adding Vessels
+Loop Number 3 of length 5
+  Fishing Vessels
+       Catch
+       Catch per Vessel
+       Revenue per Vessel
+       Payback Period
+       Adding Vessels
